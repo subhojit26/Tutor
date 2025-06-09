@@ -21,10 +21,6 @@ const Page = async() => {
               <CompanionCard
                   key={companion.id}
                   {...companion}
-                  name="Neura the brainy explorer"
-                  topic="Neural network of the brain"
-                  subject="science"
-                  duration={45}
                   color={getSubjectColor(companion.subject)}
               />
           ))}
