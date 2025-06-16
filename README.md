@@ -29,7 +29,7 @@ An intelligent, voice-interactive tutoring platform built with **Next.js**, **Ty
 |---------------|----------------------------------------|
 | **Next.js**   | Frontend framework                     |
 | **TypeScript**| Type safety & better dev experience    |
-| **Vapi.ai**   | Voice interface (input/output)         |
+| **Vapi.ai**   | Provided useful voice assistants       |
 | **ShadCN UI** | Elegant, modern UI components          |
 | **Clerk**     | User authentication and session mgmt   |
 
@@ -41,3 +41,30 @@ An intelligent, voice-interactive tutoring platform built with **Next.js**, **Ty
 ```bash
 git clone https://github.com/yourusername/ai-tutor-app.git
 cd ai-tutor-app
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Set Up Environment Variables
+Create a .env.local file and add your API keys:
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
+
+
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+
+NEXT_PUBLIC_VAPI_WEB_TOKEN=
+```
+### 4. Run the App
+```bash
+npm run dev
+```
+## 🤝 Contributing
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
