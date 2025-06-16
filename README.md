@@ -39,8 +39,8 @@ An intelligent, voice-interactive tutoring platform built with **Next.js**, **Ty
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/subhojit26/ai-tutor.git
-cd ai-tutor
+git clone https://github.com/subhojit26/AI-Tutor.git
+cd AI-Tutor
 ```
 ### 2. Install Dependencies
 ```bash
